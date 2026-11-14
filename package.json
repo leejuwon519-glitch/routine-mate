@@ -1,0 +1,12 @@
+{
+  "name": "routine-mate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "친구와 함께하는 온라인 루틴 게임",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/app.js && node --check worker/api.js && node --check scripts/build.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
